@@ -1,0 +1,35 @@
+.btn{
+    background-color: #189AB4;
+    border-color:white;
+    border-style: solid;
+    color:#D4F1F4;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+    
+.add{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:0px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.in{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+.title{
+    color: white;
+    font-size: 45px;
+    
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;;
+    margin-top: 15px;
+    margin-left: 0px;  
+}

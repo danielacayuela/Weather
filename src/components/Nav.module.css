@@ -1,0 +1,22 @@
+.active{
+    color:red;
+}
+.nav{
+    background-color: black;
+    border: black;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    height: 100px;
+    display: block;
+}
+
+.ho{
+    color: white;
+    margin-right: 30px;
+}
+.ab{
+    color: white;
+}
+
+
