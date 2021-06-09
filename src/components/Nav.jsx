@@ -9,12 +9,14 @@ function Nav({onSearch}) {
   return (
     <nav className= {navCss.nav}>
       <SearchBar onSearch={onSearch}/>
-        <Link to ='/'>
-          <span className={navCss.ho}>Home</span>
-        </Link >
-        <Link exact to ='/about'> 
-          <span className={navCss.ab}>About</span>
-        </Link>
+      <div className={navCss.options}>
+          <Link to ='/'>
+            <span className={navCss.ho}>Home</span>
+          </Link >
+          <Link exact to ='/about'> 
+            <span className={navCss.ab}>About</span>
+          </Link>
+      </div>
     </nav>
   );
 };

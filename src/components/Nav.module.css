@@ -1,22 +1,26 @@
-.active{
-    color:red;
-}
+
 .nav{
     background-color: black;
     border: black;
     display: flex;
     align-items: center;
     border-style: solid;
-    height: 100px;
-    display: block;
+    height: 80px;
+    display: block;  
+}
+
+.options{
+    margin-top: -35px;
+}
+
+.ho,.ab{
+    color: white;
+    font-weight: 600;
 }
 
 .ho{
-    color: white;
-    margin-right: 30px;
+   margin-right: 30px;
 }
-.ab{
-    color: white;
-}
+
 
 

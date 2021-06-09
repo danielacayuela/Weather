@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {Route} from 'react-router-dom';
+import swal from 'sweetalert';
 import './App.css';
 import Nav from './components/Nav.jsx';
 import Cards from './components/Cards.jsx';
@@ -34,10 +35,10 @@ export default function App() {
           };
           setCities(oldCities => [...oldCities, ciudad]);  
           }else{
-            alert('City already selected');
+            swal({title:'City already selected', icon:'warning', timer:2000});
           }
         } else {
-          alert('City not found');
+          swal({title:'City not found', icon:'error', timer:2000});
         }
       });
     }
