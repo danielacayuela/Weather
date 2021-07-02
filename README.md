@@ -1,6 +1,6 @@
 # Weather
 
-This site is under construction. I am working on making it responsive and its deployment.
+This site is under construction. I am working on making it responsive.
 
 The Wetaher app was built with JavaScrit and React. Sweetalert library was also included.
 
@@ -13,3 +13,5 @@ When entering the details of the city, you can see more information about it, in
 A brief description of the application can be found in About.
 
 To run the project you must install it (npm install or npm i) and run it with npm start.
+
+Check it = https://weather-eight-alpha.vercel.app/about
