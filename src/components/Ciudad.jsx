@@ -1,12 +1,13 @@
 import React from 'react';
+import cityStyleCSS from './ciudadStyle.module.css';
 
 export default function Ciudad({city}) {
 if(city){
     return (
-        <div className="ciudad">
-                <div className="container">
+        <div className={cityStyleCSS.city}>
+                <div>
                     <h2>{city.name}</h2>
-                    <div className="info">
+                    <div className={cityStyleCSS.info}>
                         <div>Temperatura: {city.temp} ºC</div>
                         <div>Clima: {city.weather}</div>
                         <div>Viento: {city.wind} km/h</div>

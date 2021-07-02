@@ -1,0 +1,16 @@
+.general{
+    background-color: white;
+    width: 320px;
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border:solid 5px black;
+    padding: 10px;
+    margin: auto;
+    margin-top: 7%;
+    color: black;
+    font-weight: 600;
+}
